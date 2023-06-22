@@ -1,0 +1,109 @@
+.mainActivismo {
+    .imagenActivismo {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    p {
+        padding: 10px;
+        margin-top: 40px;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        font-weight: bold;
+        text-align: justify;
+        transition: all 2s;
+        animation-duration: 2s;
+        animation-name: cambiar-color-pAct;
+        animation-iteration-count: infinite;
+        @keyframes cambiar-color-pAct {
+          0% {
+            color: red;
+          }
+          100% {
+            color: black;
+          }
+        }
+      }
+    h1 {
+        text-align: center;
+        padding: 30px 30px;
+        font-weight: bold;
+    }
+    .medioAmbiente {
+      text-align: center;
+      h3 {
+        font-style: italic;
+        text-align: left;
+        padding: 10px;
+      }
+      .videoMedioAmbiente {
+        width: 100%;
+        video {
+          padding: 10px;
+          width: 60%;
+
+          @include responsive {
+            width: 90%
+          }
+        }
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: black;
+        text-align: justify;
+        font-weight: 100;
+      }
+    }
+    .justiciaSocial {
+      text-align: center;
+      h3 {
+        font-style: italic;
+        text-align: left;
+        padding: 10px;
+      }
+      .videoJusticiaSocial {
+        width: 100%;
+        video {
+          padding: 10px;
+          width: 60%;
+
+          @include responsive {
+            width: 90%
+          }
+        }
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        text-align: justify;
+        font-weight: 100;
+      }
+    }
+    .salud {
+      text-align: center;
+      h3 {
+        font-style: italic;
+        text-align: left;
+        padding: 10px;
+      }
+      .videoSalud {
+        width: 100%;
+        video {
+          padding: 10px;
+          width: 60%;
+
+          @include responsive {
+            width: 90%
+          }
+        }
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        text-align: justify;
+        font-weight: 100;
+      }
+    }
+}
