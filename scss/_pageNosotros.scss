@@ -1,6 +1,10 @@
 .mainNosotros {
     .imagenNosotros {
         width: 100%;
+
+        @include responsive {
+            margin-top: 76px;
+        }
     }
     h1 {
         text-align: center;

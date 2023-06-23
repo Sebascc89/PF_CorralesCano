@@ -34,6 +34,9 @@ body {
   padding: 0px;
   text-align: center;
   width: 100%; }
+  @media screen and (max-width: 768px) {
+    .mainInicio .imagenPrincipal {
+      margin-top: 76px; } }
   .mainInicio .imagenPrincipal img {
     padding: 10px;
     border-radius: 20px; }
@@ -95,6 +98,9 @@ body {
 
 .mainNosotros .imagenNosotros {
   width: 100%; }
+  @media screen and (max-width: 768px) {
+    .mainNosotros .imagenNosotros {
+      margin-top: 76px; } }
 
 .mainNosotros h1 {
   text-align: center;
@@ -143,8 +149,12 @@ body {
 
 .mainActivismo .imagenActivismo {
   width: 100%; }
-  .mainActivismo .imagenActivismo img {
-    width: 100%; }
+
+.mainActivismo img {
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .mainActivismo img {
+      margin-top: 76px; } }
 
 .mainActivismo p {
   padding: 10px;
@@ -234,6 +244,9 @@ main .imagenCultura {
   width: 100%; }
   main .imagenCultura img {
     width: 100%; }
+    @media screen and (max-width: 768px) {
+      main .imagenCultura img {
+        margin-top: 76px; } }
 
 main h1 {
   text-align: center;
@@ -275,6 +288,9 @@ main .contenidoCultura {
 
 .mainTrabaja img {
   width: 100%; }
+  @media screen and (max-width: 768px) {
+    .mainTrabaja img {
+      margin-top: 76px; } }
 
 .mainTrabaja h1 {
   text-align: center;

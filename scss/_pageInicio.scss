@@ -3,6 +3,10 @@
         padding: 0px;
         text-align: center;
         width: 100%;
+        
+        @include responsive {
+            margin-top: 76px;
+        }
         img {
             padding: 10px;
             border-radius: 20px;

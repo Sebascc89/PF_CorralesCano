@@ -1,8 +1,13 @@
 main {
     .imagenCultura {
         width: 100%;
+
         img {
             width: 100%;
+
+            @include responsive {
+                margin-top: 76px;
+            }
         }
     }
     h1 {

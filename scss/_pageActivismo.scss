@@ -1,9 +1,13 @@
 .mainActivismo {
     .imagenActivismo {
       width: 100%;
+      }
       img {
         width: 100%;
-      }
+
+        @include responsive {
+          margin-top: 76px;
+        }
     }
     p {
         padding: 10px;
